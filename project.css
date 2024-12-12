@@ -1,0 +1,840 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px auto;
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Names{
+    display: flex;
+    align-items: center;
+}
+.bags{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.versions{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 20px;
+}
+.version1,.version2,.version3,.version4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.version1 >a,.version2 >a{
+    color: coral;
+    text-decoration: none;
+}
+.version5{
+    padding: 5px;
+}
+.Sentence{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(211, 211, 211, 0.163);
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.12);
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.skull1{
+    padding: 50px;
+    font-size: 4rem;
+}
+.skull2{
+    padding-top: 80px;
+    font-size: 2rem;
+}
+.peak{
+    padding: 0px 50px;
+}
+.content{
+    font-size: 1.5rem;
+    padding: 150px ;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+.card1{
+    border: 2px solid black;
+    border-radius:30px ;
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+.card1 >img,.card2 >img,.card3 >img{
+    width: 100%;
+}
+.Int1,.Cut1,.Chip1,.design1{
+    position: absolute;
+    top: 0px;
+    font-size: 1.2rem;
+    color: white;
+    padding: 20px;
+}
+.Int2,.Cut2,.Chip2,.design2{
+    position: absolute;
+    top: 30px;
+    padding: 20px;
+    font-size: 1.4rem;
+    color: white;
+}
+.card2,.card3,.card4{
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+.design1,.design2{
+    color: black;
+}
+.body2{
+    border: 2px solid rgba(211, 211, 211, 0.143);
+    background-color: rgba(211, 211, 211, 0.202);
+    padding-bottom: 100px;
+}
+.Explore{
+    display: flex;
+    justify-content: space-between;
+}
+.choose1{
+    font-size: 3.2rem;
+    padding: 100px;
+}
+.Explore >a{
+    text-decoration: none;
+    padding: 120px;
+    font-size: 1.4rem;
+}
+.picks{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.picks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pick1,.pick2,.pick3,.pick4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.pick1 >a,.pick2 >a,.pick3 >a,.pick4 >a{
+    display: block;
+    text-decoration: none;
+    color: coral;
+}
+.pick1 >p,.pick2 >p,.pick3 >p,.pick4 >p{
+    font-size: 1rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    align-content: center;
+    
+}
+.price >button{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.724);
+    color: white;
+}
+.price >a{
+    text-decoration: none;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+.element1,.element2,.element3,.element4{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 30px;
+}
+.core1,.core2,.core3,.core4{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 30px;
+}
+.bionic1,.bionic2,.bionic3,.bionic4{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 30px;
+}
+.Ultra1,.Ultra2,.Ultra3,.Ultra4{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 30px;
+}
+.body3{
+    border: 2px solid rgba(211, 211, 211, 0.192);
+    background-color: rgba(211, 211, 211, 0.184);
+    padding: 20px 0px 150px 0px;
+
+}
+.latest{
+    width: 600px;    
+    font-size: 1.6rem;
+    padding: 0px 0px 80px 100px;
+}
+.model{
+    padding: 0px 50px 100px 50px;
+}
+.place1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.place1 >h1{
+    width: 500px;
+    font-size: 3rem;
+}
+.place1 >a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.journey{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trade,.monthly,.pickup{
+    border: 2px solid rgba(211, 211, 211, 0.3);
+    background-color: rgba(211, 211, 211, 0.314);
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Accessories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 20px 60px 30px;
+}
+.Accessories >h1{
+    font-size: 3rem;
+}
+.Accessories >a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.Mag,.AirTag{
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.197);
+}
+.Mag >img,.AirTag >img{
+    width: 100%;
+    height: 100%;
+}
+.Mag >a,.AirTag >a{
+    text-decoration: none;
+}
+.key{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Mobile{
+    font-size: 1.7rem;
+    padding: 90px 0px 70px 130px;
+}
+.footer{
+    display: flex;
+    gap: 30px;
+   padding-left: 130px;
+   
+}
+.Switch{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.758);
+}
+.compare{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.shop,.More{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: bold;
+    color: black;
+}
+
+
+@media (max-width:400vw){
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .one{
+        display: none;
+        z-index: 1; 
+    }
+    #check {
+        display: none;
+    }
+    #check:checked~.one{
+        display: block;
+        background-color: red;
+        position: absolute;
+        top: 4rem;
+        width: 100%;
+    }
+    .fa-bars{
+        display: flex;
+        align-content: center;
+    }
+    .Names{
+        margin-bottom: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .bags{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Names p {
+        color: black !important;
+    }
+    .versions{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .version1, .version2, .version3 ,.version4, .version5{
+        text-align: center;
+        width: 100%;
+    }
+    .version1 > img,.version2 > img,.version3 > img,.version4 > img{
+        width: 20%;
+    }
+    .version5 > img{
+        width: 30%;
+        height: 30%;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .body >h1 {
+        font-size: 1.5rem;
+        padding-top: 10px;
+    }
+    .peak{
+        width: 100%;
+        height: 100%;
+    }
+    .content >h1{
+        font-size: 2rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        row-gap: 40px;
+    }
+    .Explore{
+        display: flex;
+        justify-content: center;
+    }
+    .Explore >h1{
+        font-size: 1.7rem;
+    }
+    .Explore >a{
+        font-size: 1.2rem;
+    }
+    .picks{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .latest >h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-right: 50px;
+        padding-right: 50px;
+    }
+    .model{
+        width: 100%;
+        height: 100%;
+    }
+    .place1{
+        display: flex;
+        align-items: center;
+    }
+    .place1 >h1{
+        font-size: 1.8rem;
+    }
+    .place1 >a{
+        font-size: 20px;
+    }
+    .journey{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .key{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-right: 10px;
+        padding-right: 10px ;
+    }
+    
+
+
+@media (min-width:401px) and (max-width:768px){
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .one {
+        display: none;
+        z-index: 1;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #check:checked~.one {
+        display: block;
+        background-color: red;
+        position: absolute;
+        top: 4rem;
+        width: 100%;
+    }
+    .fa-bars{
+        display: flex;
+        align-content: center;
+    }
+
+    .Names{
+        margin-bottom: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .bags{
+        display: flex;
+        justify-content: flex-end;
+        si
+    }
+
+    .Names p {
+        color: black !important;
+    }
+    .version1 >p ,.version2 >p ,.version3 >p ,.version4 >p ,.version5 >p{
+        font-size: 35px;
+    }
+    .version1 >a,.version2 >a{
+        font-size: 25px;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .body >h1 {
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+    .content >h1{
+        font-size: 2.2rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        row-gap: 40px;
+        width: 100%;
+    }
+    .Explore{
+        display: flex;
+        justify-content: center;
+    }
+    .Explore >h1{
+        font-size: 1.8rem;
+    }
+    .Explore >a{
+        font-size: 1.2rem;
+    }
+    .picks{
+        display: flex;
+        flex-direction: column;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .latest >h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-right: 50px;
+        padding-right: 50px;
+    }
+    .model{
+        width: 100%;
+        height: 100%;
+    }
+    .place1{
+        display: flex;
+        align-items: center;
+    }
+    .place1 >h1{
+        font-size: 1.8rem;
+    }
+    .place1 >a{
+        font-size: 20px;
+    }
+    .journey{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        width: 100%;
+    }
+    .key{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .Mobile{
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-right: 10px;
+        padding-right: 10px ;
+    }
+
+
+} 
+
+@media (min-width:769px) and (max-width:1024px){
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .one{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+    .Names{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .bags{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: 50px;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+    #check {
+        display: none;
+    }
+    .one{
+        display: block;
+    }
+.versions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.version1 >img,.version2 >img,.version3 >img,.version4 >img{
+    width: 25%;
+}
+.version5 >img{
+    width: 30%;
+    height: 30%;
+}
+.version1 >p,.version2 >p,.version3 >p,.version4 >p,.version5 >p{
+    font-size: 8px;
+}
+.version1 >a,.version2 >a{
+    font-size: 9px;
+}
+.body >h1{
+    font-size: 3rem;
+}
+.content >h1{
+    font-size: 3rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+.card1 p,.card2 p,.card3 p,.card4 p{
+    font-size: 1rem;
+}
+.Explore >h1{
+    font-size: 2.2rem;
+}
+.Explore >a{
+    font-size: 1.6rem;
+} 
+.picks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.latest >h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+.model{
+    width: 100%;
+    height: 100%;
+}   
+.place1{
+    display: flex;
+    align-items: center;
+}
+.place1 >h1{
+    font-size: 2rem;
+}
+.place1 >a{
+    font-size: 30px;
+}
+.journey{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    align-content: center;
+    width: 100%;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Mobile{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 10px;
+    padding-right: 10px ;
+}
+} 
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .one{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+    .Names{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .Names >p{
+        font-size: 1.2rem;
+    }
+    .bags{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: 50px;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+    #check {
+        display: none;
+    }
+    .one{
+        display: block;
+    }
+  .versions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .version1 >img,.version2 >img,.version3 >img,.version4 >img{
+    width: 30%;
+}
+.version5 >img{
+    width: 50%;
+    height: 50%;
+}
+.version1 >p,.version2 >p,.version3 >p,.version4 >p,.version5 >p{
+    font-size: 20px;
+}
+.version1 >a,.version2 >a{
+    font-size: 20px;
+}
+.body >h1{
+    font-size: 3rem;
+}
+.content >h1{
+    font-size: 3rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+.card1 p,.card2 p,.card3 p,.card4 p{
+    font-size: 1.5rem;
+}
+.Explore{
+    display: flex;
+    align-items:  center;
+}
+.Explore >h1{
+    font-size: 2.3rem;
+}
+.Explore >a{
+    font-size: 1.8rem;
+} 
+.picks{
+    display: flex;
+    flex-direction: row;
+}
+ .pick1 >h4,.pick2 >h4,.pick3 >h4,.pick4 >h4{
+    font-size: 2.2rem;
+} 
+.pick1 >p,.pick2 >p,.pick3 >p,.pick4 >p{
+    font-size: 1.4rem;
+}
+.pick1 >h3,.pick2 >h3,.pick3 >h3,.pick4 >h3{
+    font-size: 1.3rem;
+}
+.price >button{
+    font-size: 1.2rem;
+    padding: 2px;
+}
+.price >a{
+    font-size: 1.3rem;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.latest >h1{
+    font-size: 2.8rem;
+}
+.model{
+    width: 100%;
+    height: 100%;
+}
+.place1{
+    display: flex;
+    align-items: center;
+}
+.place1 >h1{
+    font-size: 2.5rem;
+}
+.place1 >a{
+    font-size: 40px;
+}
+.journey{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    column-gap: 10px;
+}
+.key{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 100%;
+}
+.Mobile{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
